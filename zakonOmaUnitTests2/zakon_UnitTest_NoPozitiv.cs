@@ -14,7 +14,7 @@ namespace zakonOmaUnitTests2
             bool result = MainWindow.IsFieldFilled("");
             Assert.IsFalse(result);
         }
-        /// <summary>строка из пробелов </summary>
+        /// <summary>строка из пробелов </summary> 
         [TestMethod]
         public void IsFieldFilled_WhitespaceString_ReturnsFalse()
         {
